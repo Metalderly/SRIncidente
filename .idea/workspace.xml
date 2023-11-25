@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd05687-7b82-47d4-b636-6e1a02a00865" name="Lista de cambios predeterminada" comment="abanzando con el DER, creado la BD sin lista de clientes y creacion de las clases y paguqetes">
-      <change afterPath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/JpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="bfd05687-7b82-47d4-b636-6e1a02a00865" name="Lista de cambios predeterminada" comment="abanzando con el DER, creado la BD sin lista de clientes y creacion de las clases y paguqetes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
