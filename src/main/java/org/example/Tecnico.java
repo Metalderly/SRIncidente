@@ -1,9 +1,8 @@
 package org.example;
 
-import jakarta.persistence.*;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 @Entity
@@ -14,11 +13,11 @@ public class Tecnico {
     private String nombre;
     private String medioNotificacion;
 
-    @ManyToMany(mappedBy = "Especialidad")
+    /*@ManyToMany(mappedBy = "Especialidad")
     @JoinTable(name = "tecnico_especialidad",
             joinColumns = @JoinColumn(name = "idTec"),
             inverseJoinColumns = @JoinColumn(name = "idEsp"))
-    private List<Especialidad> especialidades;
+    private List<Especialidad> especialidades;*/
 
 }
 

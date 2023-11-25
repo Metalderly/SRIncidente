@@ -15,15 +15,15 @@ public class Incidente {
     private Date fechaResolucion;
 
     @ManyToOne
-    @JoinColumn(name = "cliente_id")
+    @JoinColumn(name = "cliente")
     private Cliente cliente;
 
     @ManyToOne
-    @JoinColumn(name = "tecnico_id")
+    @JoinColumn(name = "tecnico")
     private Tecnico tecnico;
 
     @ManyToOne
-    @JoinColumn(name = "problema_id")
+    @JoinColumn(name = "problema")
     private Problema problema;
 
 }

@@ -1,16 +1,9 @@
 package Service;
 
-import org.example.Cliente;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import repository.ClienteRepository;
-
-import java.util.List;
-
-@Service
+//@Service
 public class ClienteService {
 
-    @Autowired
+    /*@Autowired
     private ClienteRepository clienteRepository;
 
     public List<Cliente> obtenerTodosClientes() {
@@ -27,6 +20,6 @@ public class ClienteService {
 
     public void eliminarCliente(Long id) {
         clienteRepository.deleteById(id);
-    }
+    }*/
 }
 
