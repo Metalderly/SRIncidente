@@ -1,6 +1,6 @@
 package org.example;
 
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.List;
@@ -10,16 +10,15 @@ import java.util.List;
 public class Tecnico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idTec;
     private String nombre;
     private String medioNotificacion;
 
-    @ManyToMany(mappedBy = "tecnico")
+    @ManyToMany(mappedBy = "Especialidad")
     @JoinTable(name = "tecnico_especialidad",
-            joinColumns = @JoinColumn(name = "tecnico_id"),
-            inverseJoinColumns = @JoinColumn(name = "especialidad_id"))
+            joinColumns = @JoinColumn(name = "idTec"),
+            inverseJoinColumns = @JoinColumn(name = "idEsp"))
     private List<Especialidad> especialidades;
-
 
 }
 

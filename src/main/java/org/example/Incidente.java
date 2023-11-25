@@ -8,7 +8,6 @@ import java.util.Date;
 @Data
 @Entity
 public class Incidente {
-    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String descripcion;

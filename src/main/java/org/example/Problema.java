@@ -8,7 +8,6 @@ import java.util.List;
 @Data
 @Entity
 public class Problema {
-    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String descripcion;
