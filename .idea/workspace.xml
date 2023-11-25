@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd05687-7b82-47d4-b636-6e1a02a00865" name="Lista de cambios predeterminada" comment="abanzando con el DER, creado la BD sin lista de clientes y creacion de las clases y paguqetes" />
+    <list default="true" id="bfd05687-7b82-47d4-b636-6e1a02a00865" name="Lista de cambios predeterminada" comment="conexion BD Exitoso">
+      <changelist_data name="Metalderly2023" email="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base de Datos/bdincidente.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Base de Datos/bdincidente.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER con las claves foraneas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER con las claves foraneas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER creado con workbench.png" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER creado con workbench.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/Diagrama DER Java(2).drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/Diagrama DER Java(2).drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Especialidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Especialidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GeneratedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GeneratedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JoinColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JoinColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JoinTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JoinTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ManyToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ManyToMany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ManyToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ManyToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OneToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OneToMany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Problema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Problema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TipoProblema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TipoProblema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/JpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/JpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +60,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Metalderly2023" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "reviewState": "NO_REVIEW"
+    }
+  ],
+  "lastFilter": {
+    "reviewState": "NO_REVIEW"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -85,6 +133,9 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -99,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="abanzando con el DER, creado la BD sin lista de clientes y creacion de las clases y paguqetes" />
-    <option name="LAST_COMMIT_MESSAGE" value="abanzando con el DER, creado la BD sin lista de clientes y creacion de las clases y paguqetes" />
+    <MESSAGE value="conexion BD Exitoso" />
+    <option name="LAST_COMMIT_MESSAGE" value="conexion BD Exitoso" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -11,7 +11,7 @@ public class Tecnico {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idTec;
     private String nombre;
-    private String medioNotificacion;
+    //private String medioNotificacion;
 
     /*@ManyToMany(mappedBy = "Especialidad")
     @JoinTable(name = "tecnico_especialidad",
