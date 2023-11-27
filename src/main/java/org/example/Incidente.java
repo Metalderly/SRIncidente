@@ -1,15 +1,19 @@
 package org.example;
 
-import jakarta.persistence.GenerationType;
+//import jakarta.persistence.GenerationType;
+
 import lombok.Data;
 
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Date;
 
 @Data
 @Entity
 public class Incidente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Id
+    private Long idInc;
     private String descripcion;
     private String estado;
     private Date fechaResolucion;

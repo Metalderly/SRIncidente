@@ -1,8 +1,12 @@
 package org.example;
 
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+//import jakarta.persistence.GenerationType;
+//import jakarta.persistence.Id;
+
 import lombok.Data;
+
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Data
 @Entity
@@ -11,13 +15,9 @@ public class Tecnico {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idTec;
     private String nombre;
-    //private String medioNotificacion;
+    private String medioNotificacion;
 
-    /*@ManyToMany(mappedBy = "Especialidad")
-    @JoinTable(name = "tecnico_especialidad",
-            joinColumns = @JoinColumn(name = "idTec"),
-            inverseJoinColumns = @JoinColumn(name = "idEsp"))
-    private List<Especialidad> especialidades;*/
+
 
 }
 

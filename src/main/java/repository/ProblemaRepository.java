@@ -1,12 +1,12 @@
 package repository;
 
-import org.example.Cliente;
+import org.example.Problema;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-    List<Cliente> findAll();
+public interface ProblemaRepository extends JpaRepository<Problema, Long> {
+    List<Problema> findAll();
 }

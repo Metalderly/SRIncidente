@@ -1,12 +1,12 @@
 package repository;
 
-import org.example.Cliente;
+import org.example.Especialidad;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-    List<Cliente> findAll();
+public interface EspecialidadRepository extends JpaRepository<Especialidad, Long> {
+    List<Especialidad> findAll();
 }

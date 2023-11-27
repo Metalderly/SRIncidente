@@ -1,6 +1,6 @@
 package org.example;
 
-import jakarta.persistence.GenerationType;
+import javax.persistence.GenerationType;
 
 public @interface GeneratedValue {
     GenerationType strategy();

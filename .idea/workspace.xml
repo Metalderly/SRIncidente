@@ -6,40 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="bfd05687-7b82-47d4-b636-6e1a02a00865" name="Lista de cambios predeterminada" comment="conexion BD Exitoso">
       <changelist_data name="Metalderly2023" email="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/ReporteServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EntityScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/TecnicoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base de Datos/bdincidente.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Base de Datos/bdincidente.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER con las claves foraneas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER con las claves foraneas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER creado con workbench.png" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/DER creado con workbench.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrama Entidad Relacion/Diagrama DER Java(2).drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrama Entidad Relacion/Diagrama DER Java(2).drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/mysql-connector-j-8.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ClienteService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Especialidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Especialidad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GeneratedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GeneratedValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JoinColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JoinColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JoinTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JoinTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ManyToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ManyToMany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ManyToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ManyToOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OneToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OneToMany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Problema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Problema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TipoProblema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TipoProblema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClienteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/JpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/JpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/especialidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/EspecialidadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/incidenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IncidenteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/problemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProblemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tecnicoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/tipoproblemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TipoProblemaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -68,16 +57,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "reviewState": "NO_REVIEW"
+      &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
     }
   ],
-  "lastFilter": {
-    "reviewState": "NO_REVIEW"
+  &quot;lastFilter&quot;: {
+    &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -94,23 +83,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/deo/Documentos/AP java Nivel Intermedio/Proyecto Java Intermedio/Clase4",
-    "onboarding.tips.debug.path": "/home/deo/Documentos/AP java Nivel Intermedio/Proyecto Java Intermedio/Clase4/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Módulos",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/deo/Documentos/AP java Nivel Intermedio/Proyecto Java Intermedio/Clase4&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/deo/Documentos/AP java Nivel Intermedio/Proyecto Java Intermedio/Clase4/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Módulos&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="repository" />
       <recent name="org.example" />
+      <recent name="Service" />
+      <recent name="repository" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
