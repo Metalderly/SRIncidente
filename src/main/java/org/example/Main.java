@@ -10,7 +10,8 @@ import repository.*;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = {"repository"})
 @EntityScan(basePackages = {"org.example"})
-//@ComponentScan(basePackages = {"org.example", "repository", "Servicio"})
+//@ComponentScan(basePackages = {"org.example", "repository", "Service"})
+
 public class Main {
 
 
@@ -49,11 +50,11 @@ public class Main {
             TipoProblemaRepository tipoProblemaRepository = context.getBean(TipoProblemaRepository.class);
 
 
-            System.out.println("Clientes: " + clienteRepository.findAll());
-            System.out.println("Incidentes: " + incidenteRepository.findAll());
-            System.out.println("Técnicos: " + tecnicoRepository.findAll());
+            System.out.println("Cliente: " + clienteRepository.findAll());
+            System.out.println("Incidente: " + incidenteRepository.findAll());
+            System.out.println("Técnico: " + tecnicoRepository.findAll());
             System.out.println("Especialidad" + especialidadRepository.findAll());
-            System.out.println("Problemas: " + problemaRepository.findAll());
+            System.out.println("Problema: " + problemaRepository.findAll());
             System.out.println("Tipo de Problemas: " + tipoProblemaRepository.findAll());
         }
 

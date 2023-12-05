@@ -1,33 +1,38 @@
 package org.example;
 
-//import jakarta.persistence.GenerationType;
-
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.util.Date;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+import java.util.List;
 
 @Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
+@Table (name = "incidente")
 public class Incidente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    private Long idInc;
+    private int idInc;
     private String descripcion;
     private String estado;
-    private Date fechaResolucion;
+    private String fechaResolucion;
 
     @ManyToOne
-    @JoinColumn(name = "cliente")
+    @JoinColumn(name = "idCli1", referencedColumName = "idCli")
     private Cliente cliente;
 
-    @ManyToOne
-    @JoinColumn(name = "tecnico")
-    private Tecnico tecnico;
+    @OnetoOne (mappedBy = "incidente")
+    private Tecnico tecnicos;
 
-    @ManyToOne
-    @JoinColumn(name = "problema")
-    private Problema problema;
+    @ManyToMany
+    private List<Problema> problemas;
+
+
 
 }
